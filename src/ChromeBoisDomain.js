@@ -17,10 +17,6 @@ export default class ChromeBoisDomain extends Component {
     } else {
       return resize('-')
     }
-
-      let x= event.clientX
-      let y= event.clientY
-      return resize(x,y)
   }
   /* TODO: Add an event listener to the `<canvas>` element to capture when a key
   /* is pressed. When a key is pressed, an event handler should invoke the the
