@@ -11,7 +11,11 @@ export default class ChromeBoisDomain extends Component {
   }
 
   clicker = () => {
-    toggleCycling()
+    return (
+      <button onClick={() => toggleCycling())}>
+        Click me!
+      </button>
+    );
   }
 
 
