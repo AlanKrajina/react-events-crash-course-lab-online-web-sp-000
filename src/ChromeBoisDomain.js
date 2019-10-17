@@ -12,7 +12,7 @@ export default class ChromeBoisDomain extends Component {
 
   clicker = () => {
     return (
-      <canvas onClick={() => toggleCycling())}>
+      <canvas onClick={() => toggleCycling()}>
         Click me!
       </canvas>
     );
