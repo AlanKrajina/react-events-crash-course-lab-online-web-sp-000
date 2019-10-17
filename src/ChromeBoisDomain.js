@@ -10,9 +10,13 @@ export default class ChromeBoisDomain extends Component {
       return drawChromeBoiAtCoords(x,y)
   }
 
-  handleKeyPress = () => {
+  handleKeyPress = (event) => {
 
-    if
+    if (event.key == 'a'){
+      return resize('+')
+    } else {
+      return resize('-')
+    }
 
       let x= event.clientX
       let y= event.clientY
