@@ -6,7 +6,7 @@ export default class ChromeBoisDomain extends Component {
 
   handleMouseMove = (event) => {
 //    this.setState({
-      let x= event.clientX,
+      let x= event.clientX
       let y= event.clientY
 //    });
     return drawChromeBoiAtCoords(x,y)
