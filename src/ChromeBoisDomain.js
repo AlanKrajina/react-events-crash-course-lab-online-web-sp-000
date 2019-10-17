@@ -10,7 +10,9 @@ export default class ChromeBoisDomain extends Component {
       return drawChromeBoiAtCoords(x,y)
   }
 
-
+  clicker = () => {
+    toggleCycling()
+  }
 
 
 
