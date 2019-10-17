@@ -27,7 +27,7 @@ export default class ChromeBoisDomain extends Component {
       <canvas
         onMouseMove={this.handleMouseMove}
         onClick={toggleCycling()}
-        onKeyPress={resize()}
+        onKeyPress={this.handleKeyPress}
         width='900'
         height='600'
         tabIndex="0">
